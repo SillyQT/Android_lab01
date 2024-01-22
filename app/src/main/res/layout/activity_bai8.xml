@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai8"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="Fahrenheit"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txt_Fahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:textSize="24sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="Celsius"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txt_Celsius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#000000"
+            android:ems="10"
+            android:inputType="number|numberDecimal|numberSigned"
+            android:textSize="24sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ConToC"
+                style="@style/Widget.MaterialComponents.TimePicker.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCCCC"
+                android:text="Convert To\n Celsius"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <Button
+                android:id="@+id/btn_ConToF"
+                style="@style/Widget.MaterialComponents.TimePicker.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CCCCCCCC"
+                android:text="Convert To\nFahrenheit"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ClearBai8"
+            style="@style/Widget.MaterialComponents.TimePicker.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#CCCCCCCC"
+            android:text="Clear"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>

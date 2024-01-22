@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bai4"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="Số a:"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/so_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="#2196F3"
+                android:ems="10"
+                android:hint="0, 1, 2 ..."
+                android:importantForAutofill="no"
+                android:inputType="numberSigned"
+                android:textSize="24sp"
+                tools:ignore="Autofill,LabelFor,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="Số b:"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/so_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                android:backgroundTint="#2196F3"
+                android:ems="10"
+                android:hint="0, 1, 2 ..."
+                android:importantForAutofill="no"
+                android:inputType="numberSigned"
+                android:textSize="24sp"
+                tools:ignore="Autofill,LabelFor,DuplicateClickableBoundsCheck,DuplicateSpeakableTextCheck,TextContrastCheck" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_Timuocchung"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#CDCDCD"
+            android:text="Tìm ước chung"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:text="Các ước chung của 2 số:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/kq_Bai4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

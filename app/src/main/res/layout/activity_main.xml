@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_Baitap2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#f00"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 2"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_Baitap3"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#ffa500"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 3"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_Baitap4"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#ffff00"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 4"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_Baitap5"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#0f0"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 5"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_Baitap6"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#00f"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 6" />
+
+    <Button
+        android:id="@+id/btn_Baitap7"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#4b0082"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 7" />
+
+    <Button
+        android:id="@+id/btn_Baitap8"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#ee82ee"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 8"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_Baitap9"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#00E91E1E"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 9" />
+
+    <Button
+        android:id="@+id/btn_Baitap10"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="#00FFB8"
+        android:backgroundTintMode="screen"
+        android:text="Bài tập 10"
+        android:textColor="@color/black" />
+
+</LinearLayout>

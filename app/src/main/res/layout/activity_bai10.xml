@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21A8FA"
+    android:gravity="center"
+    tools:context=".bai10"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:weightSum="5"
+        tools:ignore="UselessLeaf">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                tools:ignore="TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ho Chi Minh City"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#BEFFFFFF"
+            android:ems="10"
+            android:hint="Your name..."
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text=""
+            android:textColorHint="#BEFFFFFF"
+            android:textSize="20sp"
+            tools:ignore="Autofill,DuplicateSpeakableTextCheck,LabelFor,TouchTargetSizeCheck,TextContrastCheck,DuplicateClickableBoundsCheck" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#BEFFFFFF"
+            android:ems="10"
+            android:hint="Your password..."
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text=""
+            android:textColorHint="#BEFFFFFF"
+            android:textSize="20sp"
+            tools:ignore="Autofill,LabelFor,TouchTargetSizeCheck,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.Material3.MaterialTimePicker.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#C70600"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="LOGIN ACCCOUNT"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_CreateAccount_Bai10"
+        style="@style/Widget.MaterialComponents.TimePicker.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center_horizontal|center_vertical|end"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:text="NEED A NEW ACCOUNT?"
+        android:textColor="#C70600"
+        android:textSize="20sp" />
+
+</RelativeLayout>

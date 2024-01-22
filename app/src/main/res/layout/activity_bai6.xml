@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai6"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0080FF"
+            android:gravity="center"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="Chuyển năm dương sang năm âm"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#810040"
+            android:gravity="center"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="Nhập vào năm dương lịch"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/txt_nam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#12A0CB"
+            android:digits="0123456789"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textSize="24sp"
+            tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_chuyennam"
+            style="@style/Widget.MaterialComponents.TimePicker.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:backgroundTint="#D5D5D5"
+            android:text="Thực hiện"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/kq_bai6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#008040"
+            android:gravity="center"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="Năm âm lịch:"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</RelativeLayout>
