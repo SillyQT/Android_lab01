@@ -126,37 +126,4 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
     }
-
-//    @Override
-//    public void onClick(View view, int num_activity) {
-//        switch (num_activity){
-//            case 2:
-//                startActivity(new Intent(this, bai2.class));
-//                break;
-//            case 3:
-//                startActivity(new Intent(this, bai3.class));
-//                break;
-//            case 4:
-//                startActivity(new Intent(this, bai4.class));
-//                break;
-//            case 5:
-//                startActivity(new Intent(this, bai5.class));
-//                break;
-//            case 6:
-//                startActivity(new Intent(this, bai6.class));
-//                break;
-//            case 7:
-//                startActivity(new Intent(this, bai7.class));
-//                break;
-//            case 8:
-//                startActivity(new Intent(this, bai8.class));
-//                break;
-//            case 9:
-//                startActivity(new Intent(this, bai9.class));
-//                break;
-//            default:
-//                break;
-//        }
-//    }
-
 }
